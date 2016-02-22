@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800|Bad+Script);
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background: url('../images/motherboard.jpg') no-repeat fixed center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Bad Script', cursive;
+  color: #663399;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5; /* adjusts space between the lines */
+}
+a {
+  color: #663399;
+  text-decoration: none;
+}
+a:hover {
+  color: #e2e2e2;
+}
+header,
+section,
+footer {
+  padding: 100px 150px;
+}
+.loves,
+footer {
+  text-align: center;
+}
+strong {
+  color: #663399;
+}
+img {
+  border-radius: 50%;
+}
+
+
+/* PAGE HEADER
+-----------------------------------------*/
+header {
+  background: #e2e2e2;
+}
+header h1 {
+  font-size: 100px;
+}
+header h2 {
+  font-size: 32px;
+}
+
+
+/* ABOUT
+-----------------------------------------*/
+.about {
+  background: rgba(252, 252, 252, 0.80);
+}
+.profile-img {
+  float: right;
+  margin-left: 20px;
+  width: 300px;
+}
+
+
+/* LOVES - things I love
+-----------------------------------------*/
+.loves {
+  background: #9D6381;
+}
+.loves img {
+  width: 250px;
+  margin: 15px;
+}
+
+
+/* FOOTER - contact info
+-----------------------------------------*/
+footer {
+  background: #2e2e2e;
+  color: #e2e2e2;
+}
